@@ -1,0 +1,10 @@
+body {
+    height: 100vh; 
+    background-image: url("../image/myimage.JPEG");   
+    background-size: cover;
+    background-position: center;
+    background-color: lightslategray;  
+    color: greenyellow;
+    padding-top: 30vh;
+}
+

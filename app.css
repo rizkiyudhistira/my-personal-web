@@ -1,0 +1,149 @@
+body {
+    font-family: 'Merriweather';
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.jumbotron-custom {
+    height: 100vh; 
+    background-image: url("../image/myimage.JPEG");   
+    background-size: cover;
+    background-position: center;
+    color: greenyellow;
+    padding-top: 30vh;
+}
+
+.jumbotron-custom h1 {
+    font-weight: 900;
+    font-size: 40px;    
+}
+
+.jumbotron-custom a {
+    border-color: #23a592;
+    background-color: #23a592;   
+}
+
+.jumbotron-custom a:hover {
+    border-color: #23a592;
+    background-color: #0d8573;   
+}
+
+.nav-social {
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.nav-social:hover {
+    color: #0d8573;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.534) !important;
+}
+
+#about {
+    background-color: #eeeeee;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#skill {
+    background-color: f4ea8e;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: white;
+}
+
+#skill i {
+    font-size: 60px;
+}
+
+#skill h6 {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+#skill p {
+    color:brown;
+    font-size: 14px;
+}
+
+#profile {
+    background-color: lightslategrey;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: white;
+}
+
+#work {
+    background-color: #eeeeee;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#news {
+    background-color: lightslategray;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+footer h6 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#copyright p {
+    text-align: center;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border: 2px solid black;
+    width: 900px;
+    color: blue;
+    background-color: khaki;
+    text-align: center;
+}
+
+table td, table th {
+    padding: 10px;
+}
+
+table tr:hover {
+    background-color: grey;
+}
+
+table td {
+    text-align: left;
+}
+
+h2 {
+    font-color: blue;
+}
+
+.statement-spinner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    display: none;
+}
